@@ -1,0 +1,19 @@
+Package: HolaGolem
+Title: Hola_app
+Version: 0.0.0.9000
+Authors@R: person('Roberto', 'Parra', email = 'roberto.parra05@gmail.com', role = c('cre', 'aut'))
+Description: App Hola Golem.
+License: MIT + file LICENSE
+Imports: 
+    attempt,
+    config (>= 0.3.1),
+    DT,
+    glue,
+    golem (>= 0.3.1),
+    htmltools,
+    shiny (>= 1.7.1)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+URL: https://github.com/Roberto-Parra/HolaGolem.git
+BugReports: https://github.com/Roberto-Parra/HolaGolem.git/issues
