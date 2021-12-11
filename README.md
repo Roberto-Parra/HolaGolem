@@ -4,19 +4,18 @@
 # HolaGolem
 
 <!-- badges: start -->
-
-[![Lifecycle:
-experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of HolaGolem is to …
 
 ## Installation
 
-You can install the development version of HolaGolem like so:
+You can install the development version of HolaGolem from
+[GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("Roberto-Parra/HolaGolem")
 ```
 
 ## Example
@@ -29,7 +28,7 @@ library(HolaGolem)
 HolaGolem::run_app()
 #> Loading required package: shiny
 #> 
-#> Listening on http://127.0.0.1:7287
+#> Listening on http://127.0.0.1:7564
 ```
 
 <img src="man/figures/README-example-1.png" width="100%" />
